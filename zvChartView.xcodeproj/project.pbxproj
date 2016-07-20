@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1105E9BF1CCF66CF00B3541E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9BE1CCF66CF00B3541E /* main.m */; };
+		1105E9C21CCF66CF00B3541E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9C11CCF66CF00B3541E /* AppDelegate.m */; };
+		1105E9C51CCF66CF00B3541E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9C41CCF66CF00B3541E /* ViewController.m */; };
+		1105E9C81CCF66CF00B3541E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1105E9C61CCF66CF00B3541E /* Main.storyboard */; };
+		1105E9CB1CCF66CF00B3541E /* zvChartView.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9C91CCF66CF00B3541E /* zvChartView.xcdatamodeld */; };
+		1105E9CD1CCF66CF00B3541E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1105E9CC1CCF66CF00B3541E /* Assets.xcassets */; };
+		1105E9D01CCF66CF00B3541E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1105E9CE1CCF66CF00B3541E /* LaunchScreen.storyboard */; };
+		1105E9DB1CCF66CF00B3541E /* zvChartViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9DA1CCF66CF00B3541E /* zvChartViewUITests.m */; };
+		1105E9E71CCF66E600B3541E /* ZVChartView.m in Sources */ = {isa = PBXBuildFile; fileRef = 1105E9E61CCF66E600B3541E /* ZVChartView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		1105E9D71CCF66CF00B3541E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1105E9B21CCF66CF00B3541E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1105E9B91CCF66CF00B3541E;
+			remoteInfo = zvChartView;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1105E9BA1CCF66CF00B3541E /* zvChartView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = zvChartView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1105E9BE1CCF66CF00B3541E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		1105E9C01CCF66CF00B3541E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		1105E9C11CCF66CF00B3541E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		1105E9C31CCF66CF00B3541E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		1105E9C41CCF66CF00B3541E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		1105E9C71CCF66CF00B3541E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1105E9CA1CCF66CF00B3541E /* zvChartView.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = zvChartView.xcdatamodel; sourceTree = "<group>"; };
+		1105E9CC1CCF66CF00B3541E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1105E9CF1CCF66CF00B3541E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1105E9D11CCF66CF00B3541E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1105E9D61CCF66CF00B3541E /* zvChartViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = zvChartViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1105E9DA1CCF66CF00B3541E /* zvChartViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = zvChartViewUITests.m; sourceTree = "<group>"; };
+		1105E9DC1CCF66CF00B3541E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1105E9E51CCF66E600B3541E /* ZVChartView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVChartView.h; sourceTree = "<group>"; };
+		1105E9E61CCF66E600B3541E /* ZVChartView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVChartView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1105E9B71CCF66CF00B3541E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1105E9D31CCF66CF00B3541E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1105E9B11CCF66CF00B3541E = {
+			isa = PBXGroup;
+			children = (
+				1105E9BC1CCF66CF00B3541E /* zvChartView */,
+				1105E9D91CCF66CF00B3541E /* zvChartViewUITests */,
+				1105E9BB1CCF66CF00B3541E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		1105E9BB1CCF66CF00B3541E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1105E9BA1CCF66CF00B3541E /* zvChartView.app */,
+				1105E9D61CCF66CF00B3541E /* zvChartViewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1105E9BC1CCF66CF00B3541E /* zvChartView */ = {
+			isa = PBXGroup;
+			children = (
+				1105E9C01CCF66CF00B3541E /* AppDelegate.h */,
+				1105E9C11CCF66CF00B3541E /* AppDelegate.m */,
+				1105E9C31CCF66CF00B3541E /* ViewController.h */,
+				1105E9C41CCF66CF00B3541E /* ViewController.m */,
+				1105E9E51CCF66E600B3541E /* ZVChartView.h */,
+				1105E9E61CCF66E600B3541E /* ZVChartView.m */,
+				1105E9C61CCF66CF00B3541E /* Main.storyboard */,
+				1105E9CC1CCF66CF00B3541E /* Assets.xcassets */,
+				1105E9CE1CCF66CF00B3541E /* LaunchScreen.storyboard */,
+				1105E9D11CCF66CF00B3541E /* Info.plist */,
+				1105E9C91CCF66CF00B3541E /* zvChartView.xcdatamodeld */,
+				1105E9BD1CCF66CF00B3541E /* Supporting Files */,
+			);
+			path = zvChartView;
+			sourceTree = "<group>";
+		};
+		1105E9BD1CCF66CF00B3541E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				1105E9BE1CCF66CF00B3541E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		1105E9D91CCF66CF00B3541E /* zvChartViewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				1105E9DA1CCF66CF00B3541E /* zvChartViewUITests.m */,
+				1105E9DC1CCF66CF00B3541E /* Info.plist */,
+			);
+			path = zvChartViewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1105E9B91CCF66CF00B3541E /* zvChartView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1105E9DF1CCF66CF00B3541E /* Build configuration list for PBXNativeTarget "zvChartView" */;
+			buildPhases = (
+				1105E9B61CCF66CF00B3541E /* Sources */,
+				1105E9B71CCF66CF00B3541E /* Frameworks */,
+				1105E9B81CCF66CF00B3541E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = zvChartView;
+			productName = zvChartView;
+			productReference = 1105E9BA1CCF66CF00B3541E /* zvChartView.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1105E9D51CCF66CF00B3541E /* zvChartViewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1105E9E21CCF66CF00B3541E /* Build configuration list for PBXNativeTarget "zvChartViewUITests" */;
+			buildPhases = (
+				1105E9D21CCF66CF00B3541E /* Sources */,
+				1105E9D31CCF66CF00B3541E /* Frameworks */,
+				1105E9D41CCF66CF00B3541E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				1105E9D81CCF66CF00B3541E /* PBXTargetDependency */,
+			);
+			name = zvChartViewUITests;
+			productName = zvChartViewUITests;
+			productReference = 1105E9D61CCF66CF00B3541E /* zvChartViewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1105E9B21CCF66CF00B3541E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = zv;
+				TargetAttributes = {
+					1105E9B91CCF66CF00B3541E = {
+						CreatedOnToolsVersion = 7.3;
+						DevelopmentTeam = H4X727485R;
+					};
+					1105E9D51CCF66CF00B3541E = {
+						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 1105E9B91CCF66CF00B3541E;
+					};
+				};
+			};
+			buildConfigurationList = 1105E9B51CCF66CF00B3541E /* Build configuration list for PBXProject "zvChartView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1105E9B11CCF66CF00B3541E;
+			productRefGroup = 1105E9BB1CCF66CF00B3541E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1105E9B91CCF66CF00B3541E /* zvChartView */,
+				1105E9D51CCF66CF00B3541E /* zvChartViewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1105E9B81CCF66CF00B3541E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1105E9D01CCF66CF00B3541E /* LaunchScreen.storyboard in Resources */,
+				1105E9CD1CCF66CF00B3541E /* Assets.xcassets in Resources */,
+				1105E9C81CCF66CF00B3541E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1105E9D41CCF66CF00B3541E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1105E9B61CCF66CF00B3541E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1105E9C51CCF66CF00B3541E /* ViewController.m in Sources */,
+				1105E9CB1CCF66CF00B3541E /* zvChartView.xcdatamodeld in Sources */,
+				1105E9E71CCF66E600B3541E /* ZVChartView.m in Sources */,
+				1105E9C21CCF66CF00B3541E /* AppDelegate.m in Sources */,
+				1105E9BF1CCF66CF00B3541E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1105E9D21CCF66CF00B3541E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1105E9DB1CCF66CF00B3541E /* zvChartViewUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1105E9D81CCF66CF00B3541E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1105E9B91CCF66CF00B3541E /* zvChartView */;
+			targetProxy = 1105E9D71CCF66CF00B3541E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		1105E9C61CCF66CF00B3541E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1105E9C71CCF66CF00B3541E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1105E9CE1CCF66CF00B3541E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1105E9CF1CCF66CF00B3541E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1105E9DD1CCF66CF00B3541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1105E9DE1CCF66CF00B3541E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1105E9E01CCF66CF00B3541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = zvChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zv.zvChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		1105E9E11CCF66CF00B3541E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = zvChartView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zv.zvChartView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		1105E9E31CCF66CF00B3541E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zvChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zv.zvChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zvChartView;
+			};
+			name = Debug;
+		};
+		1105E9E41CCF66CF00B3541E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = zvChartViewUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = zv.zvChartViewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = zvChartView;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1105E9B51CCF66CF00B3541E /* Build configuration list for PBXProject "zvChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1105E9DD1CCF66CF00B3541E /* Debug */,
+				1105E9DE1CCF66CF00B3541E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1105E9DF1CCF66CF00B3541E /* Build configuration list for PBXNativeTarget "zvChartView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1105E9E01CCF66CF00B3541E /* Debug */,
+				1105E9E11CCF66CF00B3541E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1105E9E21CCF66CF00B3541E /* Build configuration list for PBXNativeTarget "zvChartViewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1105E9E31CCF66CF00B3541E /* Debug */,
+				1105E9E41CCF66CF00B3541E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1105E9C91CCF66CF00B3541E /* zvChartView.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1105E9CA1CCF66CF00B3541E /* zvChartView.xcdatamodel */,
+			);
+			currentVersion = 1105E9CA1CCF66CF00B3541E /* zvChartView.xcdatamodel */;
+			path = zvChartView.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1105E9B21CCF66CF00B3541E /* Project object */;
+}
